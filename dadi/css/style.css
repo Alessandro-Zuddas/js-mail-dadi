@@ -7,3 +7,80 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    background-color: bisque;
+}
+
+/*---------
+  MAIN 
+---------*/
+
+main{
+    margin-top: 9.375rem;
+}
+
+.container{
+    width: 62.5rem;
+    margin: auto;
+    background-color: lightcoral;
+    height: 500px;
+}
+
+.top-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 1.5625rem;
+}
+
+.player-name{
+    font-size: 3.125rem;
+    color: white;
+}
+
+.cpu-name{
+    font-size: 3.125rem;
+    color: white;
+}
+
+.versus-text{
+    font-size: 6.25rem;
+    color: red;
+}
+
+.bottom-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 3.125rem 1.875rem;
+}
+
+.divider{
+    width: 7.8125rem;
+    margin-left: .3125rem;
+}
+
+#user-number, #cpu-number{
+    font-size: 2.5rem;
+}
+
+.final-row{
+    text-align: center;
+    padding-top: 2.5rem;
+    font-size: 4.6875rem;
+}
+
+.lose{
+    color: red;
+}
+
+.win{
+    color: green;
+}
+
+.draw{
+    color: yellow;
+}
