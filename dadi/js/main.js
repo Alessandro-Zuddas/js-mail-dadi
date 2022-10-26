@@ -1,9 +1,9 @@
 // Estraggo numero utente
-const userNumber = Math.floor(Math.random() * 6);
+const userNumber = Math.floor(Math.random() * 7);
 const userDisplay = document.getElementById("user-number");
 
 // Estraggo numero cpu
-const cpuNumber = Math.floor(Math.random() * 6);
+const cpuNumber = Math.floor(Math.random() * 7);
 const cpuDisplay = document.getElementById("cpu-number");
 
 // Assegno tag su cui scrivere l'esito ad una variabile
